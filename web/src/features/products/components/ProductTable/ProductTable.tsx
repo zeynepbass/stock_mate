@@ -139,12 +139,12 @@ export function ProductTable({ products }: ProductTableProps) {
 
       {products.items.length > 0 && (
         <div className="border-t border-slate-200 px-5 py-4 text-sm text-slate-500">
-          Toplam{" "}
-          <span className="font-medium text-slate-900">{products.total}</span>{" "}
-          üründen{" "}
+          Toplam
+          <span className="font-medium text-slate-900">{products.total}</span>
+          üründen
           <span className="font-medium text-slate-900">
             {products.items.length}
-          </span>{" "}
+          </span>
           ürün gösteriliyor
         </div>
       )}

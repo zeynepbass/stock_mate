@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 
 import { Lınk } from "@/shared/components/atoms/Link";
 
@@ -7,8 +6,7 @@ import { ProductImage } from "../components/ProductDetailmage";
 import { ProductDetailnfoSection } from "../components/ProductDetailnfoSection";
 import { useProductDetails, useUpdateProduct } from "../hooks/useProducts";
 
-export default function ProductDetailContainer() {
-  const { id } = useParams();
+export default function ProductDetailContainer({id}) {
 
   const productId = Number(id);
 
