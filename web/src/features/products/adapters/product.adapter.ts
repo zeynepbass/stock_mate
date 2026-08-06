@@ -4,7 +4,7 @@ import type {
 } from "../types/product.types";
 
 interface ApiProduct {
-  id: string;
+  id: number;
   name: string; 
   sku: string;
   barcode: string;
