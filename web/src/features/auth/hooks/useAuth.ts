@@ -9,7 +9,7 @@ export function useAuth() {
 
   function handleLogout() {
     logout();
-    navigate("/giris-yap");
+    navigate("//");
   }
   const user = useAuthStore((state) => state.user);
 

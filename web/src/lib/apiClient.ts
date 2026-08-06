@@ -35,8 +35,8 @@ apiClient.interceptors.response.use(
       localStorage.removeItem("user");
       localStorage.removeItem("expiresAt");
 
-      if (window.location.pathname !== "/giris-yap") {
-        window.location.href = "/giris-yap";
+      if (window.location.pathname !== "//") {
+        window.location.href = "//";
       }
     }
 

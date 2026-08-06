@@ -278,7 +278,7 @@ export function useUpdateProduct(product: Product | null) {
       },
     });
   }
-console.log(form)
+
   return {
     form,
     isEditing,

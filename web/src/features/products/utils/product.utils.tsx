@@ -4,8 +4,7 @@ export function filterProducts(
   products: Product[],
   search: string
 ) {
-  console.log("Search:", search);
-  console.log("Items:", products);
+
 
   if (!search.trim()) {
     return products;

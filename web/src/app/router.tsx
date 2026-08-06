@@ -7,7 +7,7 @@ import LoginPage from "@/features/auth/pages/LoginPage";
 import NotFoundPage from "../pages/NotFoundPage";
 import UnauthorizedPage from "../pages/UnauthorizedPage";
 export const router = createBrowserRouter([
-  { path: "/giris-yap", element: <LoginPage /> },
+  { path: "//", element: <LoginPage /> },
   { path: "/401", element: <UnauthorizedPage /> },
   {
     element: <ProtectedRoute />,

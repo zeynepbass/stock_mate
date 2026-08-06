@@ -1,6 +1,6 @@
 
 import { NavLink } from "react-router-dom";
-import {navigation} from "./mock/navigation"
+import {navigation} from "../shared/mock/navigation"
 
 export default function Sidebar() {
   return (

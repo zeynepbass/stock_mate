@@ -8,7 +8,7 @@ export default function UnauthorizedPage() {
         description="       Erişim engellendi"
         linkText="      Bu sayfaya erişim izniniz yok."
         buttonText="Giriş yap"
-        route="/giris-yap"
+        route="//"
       />
     </div>
   );

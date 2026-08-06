@@ -1,5 +1,5 @@
 
-import { useAuth } from "../hooks/useAuth";
+import { useAuth } from "../../hooks/useAuth";
 
 import { Button } from "@/shared/components/atoms/Button";
 import { FormLabel } from "@/shared/components/molecules/FormLabel";
@@ -10,17 +10,19 @@ export function LoginForm() {
 
 
   return (
+    <section className=" md:col-span-7 lg:col-span-5 flex items-center justify-center bg-slate-50 px-6">
     <form
       onSubmit={handleSubmit}
       className="w-full max-w-md space-y-5 rounded-2xl border border-slate-200 bg-white p-8 shadow-sm"
     >
       <div>
+      <span className="text-xs tracking-wide text-slate-500">PANEL GİRİŞİ</span>
         <h1 className="text-2xl font-bold text-slate-900">
-          Hoş geldiniz
+          Tekrar hoş geldiniz
         </h1>
 
         <p className="mt-1 text-sm text-slate-500">
-          StokMate yönetim paneline giriş yapın.
+          Devam etmek için hesabınıza giriş yapın.
         </p>
       </div>
 
@@ -52,6 +54,6 @@ export function LoginForm() {
       >
         Giriş Yap
       </Button>
-    </form>
+    </form></section>
   );
 }
