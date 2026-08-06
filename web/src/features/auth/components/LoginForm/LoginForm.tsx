@@ -6,7 +6,7 @@ import { FormLabel } from "@/shared/components/molecules/FormLabel";
 
 export function LoginForm() {
 
-  const { login,handleSubmit,error,email,setEmail,password,setPassword,loading } = useAuth();
+  const {handleSubmit,error,email,setEmail,password,setPassword,loading } = useAuth();
 
 
   return (

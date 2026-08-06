@@ -28,7 +28,7 @@ export function ProductPagination({
       </button>
 
       <span className="text-sm text-slate-500">
-        Sayfa <span className="font-medium">{page}</span> /{" "}
+        Sayfa <span className="font-medium">{page}</span> 
         <span className="font-medium">{totalPages}</span>
       </span>
 

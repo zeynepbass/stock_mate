@@ -2,7 +2,7 @@
 import { EditableInfo } from "@/shared/components/molecules/EditableInfo";
 import { FieldLabel } from "@/shared/components/atoms/FieldLabel";
 import { StatusBadge } from "@/shared/components/atoms/StatusBadge";
-
+import { Info } from "@/shared/components/molecules/Info";
 interface ProductInfoSectionProps {
   form: {
     name: string;
@@ -179,20 +179,5 @@ export function ProductDetailnfoSection({
   );
 }
 
-interface InfoProps {
-  label: string;
-  value: string;
-}
 
-function Info({ label, value }: InfoProps) {
-  return (
-    <div>
-      <FieldLabel label={label} />
-
-      <p className="mt-1.5 text-sm font-medium text-slate-900">
-        {value}
-      </p>
-    </div>
-  );
-}
 

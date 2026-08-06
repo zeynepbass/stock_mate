@@ -20,12 +20,11 @@ export function useAuth() {
   const expiresAt = useAuthStore((state) => state.expiresAt);
   const handleLogin = useAuthStore((state) => state.login);
 
-  const login = async (...args: Parameters<typeof login>) => {
-    await handleLogin(...args);
-
+  const login = async (...args: Parameters<typeof handleLogin>) => {
+    handleLogin(...args);
+  
     toast.success("Başarıyla giriş yaptınız.");
   };
-
   const logout = useAuthStore((state) => state.logout);
   const [email, setEmail] = useState("test@ornek.com");
   const [password, setPassword] = useState("Test1234!");

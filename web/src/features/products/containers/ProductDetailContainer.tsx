@@ -96,7 +96,7 @@ export default function ProductDetailContainer() {
             onEditChange={handleChange}
             onStatusChange={handleChange}
             onCancel={() => setIsEditing(false)}
-            onSubmit={handleSubmit}
+    
           />
           </div>
         </form>

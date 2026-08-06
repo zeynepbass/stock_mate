@@ -1,4 +1,14 @@
-export function Info({ label, value }: InfoProps) {
+import { FieldLabel } from "../../atoms/FieldLabel";
+
+type InfoProps = {
+  label: string;
+  value: string | number;
+};
+
+export function Info({
+  label,
+  value,
+}: InfoProps) {
   return (
     <div>
       <FieldLabel label={label} />
