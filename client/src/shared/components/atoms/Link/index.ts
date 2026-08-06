@@ -1,0 +1,1 @@
+export {Lınk} from "./Link"
