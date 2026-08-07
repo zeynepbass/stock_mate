@@ -307,19 +307,19 @@ Avantajları:
 ### Giriş Ekranı
 
 <p align="center">
-  <img src="./public/assets/screenshots/giris.png" width="250"/>
+  <img src="./public/assets/screenshots/giris.png" width="500"/>
 </p>
 
 ### Ürün Listesi
 
 <p align="center">
-  <img src="./public/assets/screenshots/urunler.png" width="250"/>
+  <img src="./public/assets/screenshots/urunler.png" width="500"/>
 </p>
 
 ### Ürün Detayı
 
 <p align="center">
-  <img src="./public/assets/screenshots/detay.png" width="250"/>
+  <img src="./public/assets/screenshots/detay.png" width="500"/>
 </p>
 
 ---
