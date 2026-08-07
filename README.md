@@ -221,9 +221,7 @@ Desteklenen işlemler:
 
 * Ürün listeleme
 * Ürün detay görüntüleme
-* Ürün oluşturma
 * Ürün güncelleme
-* Ürün silme
 * API cache yönetimi
 * Form validation
 * Loading ve error state yönetimi
